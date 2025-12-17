@@ -63,7 +63,7 @@ CREATE TABLE DIM_TIPO_TALLER (
 CREATE TABLE DIM_ASESORES (
     id_asesor INT PRIMARY KEY AUTO_INCREMENT,
     nombre VARCHAR(150),
-    id_especialidad VARCHAR(100)
+    especialidad VARCHAR(100)
 );
 
 -- H. DIM_FASE
